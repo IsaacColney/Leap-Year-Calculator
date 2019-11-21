@@ -1,5 +1,6 @@
 
 year = input("Enter the year :")
+
 if year != int():
     print ('Input integer only!!!!')
     year = int(input("Enter the year :"))
@@ -19,7 +20,6 @@ def is_leap(year):
     else:
         return b
     
-
 print(is_leap(year))
 
 input("Press any Key to close.......")
